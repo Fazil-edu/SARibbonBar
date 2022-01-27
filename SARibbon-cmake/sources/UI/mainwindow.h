@@ -4,6 +4,7 @@
 class SARibbonCategory;
 class SARibbonContextCategory;
 class SARibbonCustomizeWidget;
+class Browser;
 class QTextEdit;
 class SARibbonActionsManager;
 class MainWindow : public SARibbonMainWindow
@@ -38,6 +39,7 @@ private:
     SARibbonContextCategory *m_contextCategory2;
     SARibbonCustomizeWidget *m_customizeWidget;
     QTextEdit *m_edit;
+	Browser *sqlBrowser;
     SARibbonActionsManager *m_actMgr;
     int m_actionTagText;
     int m_actionTagWithIcon;

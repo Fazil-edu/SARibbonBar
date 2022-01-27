@@ -1,10 +1,11 @@
 #-------------------------------------------------
 #
-# SARibbon的文件
+# SARibbon
 #
 #-------------------------------------------------
 
 SOURCES += \
+	$$PWD/Browser.cpp\
     $$PWD/SAFramelessHelper.cpp \
     $$PWD/SARibbonActionsManager.cpp \
     $$PWD/SARibbonBar.cpp \
@@ -42,6 +43,7 @@ SOURCES += \
     $$PWD/SARibbonLineWidgetContainer.cpp
 
 HEADERS  += \
+	$$PWD/Browser.h\
     $$PWD/SAFramelessHelper.h \
     $$PWD/SARibbonActionsManager.h \
     $$PWD/SARibbonBar.h \

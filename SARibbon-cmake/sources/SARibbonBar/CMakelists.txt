@@ -7,6 +7,7 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 qt5_add_resources(QRCS resource.qrc)
 
 SET(HEADER_FILES
+    Browser.h
     SAFramelessHelper.h
     SARibbonActionsManager.h
     SARibbonBar.h
@@ -46,6 +47,7 @@ SET(HEADER_FILES
 )
 
 SET(SOURCE_FILES
+	Browser.cpp
     SAFramelessHelper.cpp
     SARibbonActionsManager.cpp
     SARibbonBar.cpp
