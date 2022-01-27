@@ -3,16 +3,9 @@
 #include <QElapsedTimer>
 #include <QDebug>
 
-//重定向qdebug的打印
 void log_out_put(QtMsgType type, const QMessageLogContext& context, const QString& msg);
 
 
-/**
- * @brief 重定向qdebug的打印
- * @param type
- * @param context
- * @param msg
- */
 void log_out_put(QtMsgType type, const QMessageLogContext& context, const QString& msg)
 {
     QByteArray localMsg = msg.toLocal8Bit();
@@ -57,7 +50,7 @@ int main(int argc, char *argv[])
     qInstallMessageHandler(log_out_put);
     QFont f = a.font();
 
-    f.setFamily("微软雅黑");
+    f.setFamily("text");
     a.setFont(f);
     QElapsedTimer cost;
 
