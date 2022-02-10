@@ -1,5 +1,3 @@
-
-.vs/SARibbonBar/v15/Browse.VC.db
-.vs/SARibbonBar/v15/Browse.VC.opendb
-.vs/SARibbonBar/v15/ipch/AutoPCH/f393c2e253499712/MAIN.ipch
-.vs/slnx.sqlite
+build/
+.vs/
+out/
